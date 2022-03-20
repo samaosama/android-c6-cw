@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="175dp"
+        android:layout_height="187dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="-2dp"
+        app:srcCompat="@drawable/donut" />
+
+    <TextView
+        android:id="@+id/itemName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="83dp"
+        android:fontFamily="@font/chau_philomene_one"
+        android:text="TextView"
+        android:textColor="#DC86F4"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/ItemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="105dp"
+        android:layout_marginEnd="150dp"
+        android:fontFamily="@font/atomic_age"
+        android:shadowColor="#C213C8"
+        android:text="Price:"
+        android:textColor="#C00EC6"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/numberprice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="103dp"
+        android:fontFamily="@font/atomic_age"
+        android:shadowColor="#C213C8"
+        android:text="2.0"
+        android:textColor="#C00EC6"
+        android:textSize="22sp" />
+</RelativeLayout>
